@@ -1,0 +1,153 @@
+.contact-title-bg{
+    background-color: red;
+    width: 20px;
+    color: white;
+    padding: 5% 2% 10%;
+    margin-top: 12.4%;
+    height: 300px;
+}
+
+
+.banner {
+    background-image: url('/Images/contact-bg.png');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    align-items: center;
+  }
+
+
+
+  /* form  */
+
+  .form-yourName {
+    border: 2px solid #FF0000;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-radius: 0;
+    padding-left: 0;
+}
+
+.text-left {
+    width: 90%;
+}
+
+.form-button {
+    background-color: #FF0000;
+    border-radius: 0;
+    width: 100%;
+    margin-top: 5%;
+}
+
+
+
+
+/* keep in touch */
+.keep-in-touch {
+    background-color: rgb(238, 238, 238);
+    padding: 3% 5%;
+    margin-top: 6%;
+}
+
+
+/* social media  */
+.social-media{
+    padding-top: 4%;
+    padding-bottom: 4%;
+
+}
+
+.social-media-icons{
+    width: 80px;
+
+}
+
+
+@media (min-width: 390px) and (max-width: 480px) {
+
+
+    .contact-title-bg{
+        background-color: red;
+        width: 20px;
+        color: white;
+        padding: 5% 2% 10%;
+        margin-top: 12.4%;
+        margin-left: 0px;
+        margin-right: 0px;
+        height: 200px;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    
+    
+    .banner {
+        background-image: url('/Images/contact-bg.png');
+        background-size: cover;
+        background-position: center;
+        height: 500px;
+        align-items: center;
+      }
+    
+    
+    
+      /* form  */
+    
+      .form-yourName {
+        border: 2px solid #FF0000;
+        border-left: none;
+        border-right: none;
+        border-top: none;
+        border-radius: 0;
+        padding-left: 0;
+    }
+
+       
+    .text-left {
+        width: 90%;
+    }
+    
+    .form-button {
+        background-color: #FF0000;
+        border-radius: 0;
+        width: 100%;
+        margin-top: 5%;
+    }
+    
+    
+    
+    
+    /* form */
+    .keep-in-touch {
+        background-color: rgb(238, 238, 238);
+        padding: 3% 5%;
+        margin-top: 20%;
+    }
+    
+    
+    /* social media  */
+    .social-media{
+        padding-top: 4%;
+        padding-bottom: 4%;
+    
+    }
+    
+    .social-media-icons{
+        width: 60px;
+    
+    }
+
+    .form-text{
+        text-align: center;
+    }
+
+    .form-icons{
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 20px;
+        }
+    
+   
+
+}
