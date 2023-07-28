@@ -1710,8 +1710,13 @@ margin-bottom: 5px;
         height: 100vh;
     } */
 
-    .min-width-header{
-        
-        padding-right: 0;
+    .min-width-header{  
+    padding-right: 0;
+    }
 
+    .p-font-details-2{
+        text-align: left !important;
+        font-size: 16px !important;
+        font-weight: 500;
+        color: #ffffff !important;
     }
