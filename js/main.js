@@ -120,7 +120,7 @@
         autoplay: true,
         smartSpeed: 1000,
         center: true,
-        margin: 0,
+        margin: 24,
         dots: true,
         loop: true,
         nav : false,
