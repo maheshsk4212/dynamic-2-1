@@ -249,13 +249,35 @@ h1{
 
 /*** Hero Header ***/
 .hero-header {
-    background: url(../img/Header-video.mp4);
-    background-position: center center;
-    background-repeat: no-repeat;
     background-size: cover;
-
+    height: calc(100vh - 150px);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background-attachment: fixed;
 }
-
+.overlay {
+    position: relative;
+}
+.overlay::before {
+    content: '';
+    background: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    left: 0;
+}
+#myVideo {
+    object-fit: cover;
+    width: 100vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
 .flex{
     display: flex;
     justify-content: center;
@@ -287,13 +309,16 @@ h1{
 
 /* scroll icon */
 .mouse-icon {
-    border: 2px solid #000;
+    border: 2px solid #fff;
     border-radius: 16px;
     height: 40px;
     width: 24px;
     display: block;
     z-index: 10;
     opacity: 0.7;
+    position: absolute;
+    bottom: 25px;
+    left: 50%;
   }
   .mouse-icon .wheel {
     -webkit-animation-name: drop;
@@ -318,7 +343,7 @@ h1{
   .mouse-icon .wheel {
     position: relative;
     border-radius: 10px;
-    background: #000;
+    background: #fff;
     width: 2px;
     height: 6px;
     top: 4px;
@@ -432,6 +457,12 @@ h1{
 .font-size-card-p-new{
     text-align: left !important;
     font-size: 13px !important;
+    color: #ffffff !important;
+}
+
+.font-size-card-p-new-2{
+    text-align: left !important;
+    font-size: 16px !important;
     color: #ffffff !important;
 }
 
@@ -1462,17 +1493,6 @@ margin-bottom: 5px;
         height: 500px;
     }
     
-    
-    .banner {
-        background-image: url('/Images/contact-bg.png');
-        background-size: cover;
-        background-position: center;
-        height: 400px;
-        align-items: center;
-      }
-    
-    
-    
       /* form  */
     
       .form-yourName {
@@ -1701,3 +1721,35 @@ margin-bottom: 5px;
         padding-right: 0;
 
     }
+
+    .font-size{
+        font-size: 26px;
+        font-weight: 500;
+        color: #113311 !important; 
+        margin-bottom: 100px !important;
+    }
+
+    .font-green{
+        color: #113311 !important; 
+    }
+
+    .padding{
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    .bg-grey{
+        background-color: #F0F0F0;
+    }
+
+    /* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+/* input[type=number] {
+  -moz-appearance: textfield;
+} */

@@ -118,9 +118,6 @@ body {
 
 h1 {
   font-family: Plus Jakarta Sans;
-  font-size: 3.5rem;
-  line-height: 1.5;
-  font-weight: 800;
 }
 
 h3 {
@@ -239,7 +236,7 @@ h3 {
 /* our history */
 .title-ourHistory {
   text-align: left;
-  padding-top: 12%;
+  padding-top: 18%;
   padding-left: 9%;
   margin: 10px;
   color: #808583;
@@ -268,13 +265,12 @@ h3 {
   text-align: left;
   background: linear-gradient(256.91deg, #F91218 13.78%, #FFC700 94.38%);
   position: absolute;
-  width: 697px;
-  margin-top: 620px;
-  height: 593px;
+  width: 55%;
+    margin-top: 30%;
+    padding: 5%;
 }
 
 .para-textHistory {
-  padding: 8%;
   color: white;
   font-size: 16px;
 
@@ -289,7 +285,6 @@ h3 {
 
 .our-team {
   background-color: #D7D7D7;
-  margin-top: 30%;
   padding: 6% 0%;
   width: 100%;
 }
@@ -495,8 +490,7 @@ h3 {
   /* our history */
   .title-ourHistory {
     text-align: center;
-    padding-top: 12%;
-
+    padding-top: 18%;
     margin: 10px;
     color: #808583;
   }
@@ -520,23 +514,6 @@ h3 {
     padding-top: 2%;
     display: none;
   }
-
-  .para-OurHistory {
-    text-align: center;
-    background: linear-gradient(256.91deg, #F91218 13.78%, #FFC700 94.38%);
-    position: absolute;
-    width: 720px;
-    margin-top: 320px;
-    height: 550px;
-  }
-
-  .para-textHistory {
-    padding: 8%;
-    color: white;
-    font-size: 16px;
-
-  }
-
 
   /* our team */
 
@@ -756,7 +733,7 @@ h3 {
   /* our history */
   .title-ourHistory {
     text-align: center;
-    padding-top: 12%;
+    padding-top: 18% !important;
     margin: 10px;
     color: #808583;
   }
@@ -782,21 +759,6 @@ h3 {
     display: none;
   }
 
-  .para-OurHistory {
-    text-align: center;
-    background: linear-gradient(256.91deg, #F91218 13.78%, #FFC700 94.38%);
-    position: absolute;
-    width: 100%;
-    margin-top: 260px;
-    height: 710px;
-  }
-
-  .para-textHistory {
-    padding: 8%;
-    color: white;
-    font-size: 14px;
-
-  }
 
 
   /* our team */
@@ -973,4 +935,8 @@ h3 {
   text-align: left;
   justify-content: flex-start;
   align-items: flex-start;
+}
+
+.border{
+  border: #000000 2px solid;
 }
